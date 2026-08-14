@@ -1,0 +1,19 @@
+{
+  "name": "haftalik-izin-cizelgesi",
+  "version": "2.0.0",
+  "description": "QUİCK EKPRESS DELİVERY - Motorlu Kurye Haftalık İzin Çizelgesi Portalı",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "tunnel": "node tunnel.js"
+  },
+  "keywords": [
+    "haftalik-izin",
+    "kurye-portali",
+    "quick-ekpress"
+  ],
+  "author": "Antigravity AI",
+  "license": "MIT"
+}

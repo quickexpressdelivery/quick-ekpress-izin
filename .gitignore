@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Local Data
+.env
+.env.local
+*.log
+
+# Antigravity temporary test files
+test_*.js
+check_*.js
+audit_*.js
+supervisor_audit.js
+verify_go_live_2055.js
+confirm_active.js
+get_public_link.js
+run_admin_test.js
+test-*.mjs

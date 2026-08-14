@@ -1,0 +1,659 @@
+{
+  "activeWeek": {
+    "id": "week_current",
+    "label": "17 Ağustos - 23 Ağustos 2026",
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-23"
+  },
+  "settings": {
+    "systemTitle": "QUİCK EKPRESS DELİVERY",
+    "systemSubtitle": "Motorlu Kurye Haftalık İzin ve Vardiya Çizelgesi",
+    "windowStartDay": "Pazartesi",
+    "windowStartTime": "08:00",
+    "windowEndDay": "Cuma",
+    "windowEndTime": "23:59",
+    "isLockManual": false,
+    "allowMultipleLeavesPerPerson": false,
+    "maxLeavesPerDayPerGroup": 1
+  },
+  "admins": [
+    {
+      "id": "adm_1786730329330",
+      "name": "MURAT ARSLAN",
+      "pin": "1234",
+      "role": "ADMİN"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "1. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_1_1",
+          "name": "Ahmet Yılmaz",
+          "phone": "05321000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_1_2",
+          "name": "Mehmet Kaya",
+          "phone": "05321000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_1_3",
+          "name": "Ali Demir",
+          "phone": "05321000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_1_4",
+          "name": "Mustafa Çelik",
+          "phone": "05321000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_1_5",
+          "name": "Hüseyin Şahin",
+          "phone": "05321000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_1_6",
+          "name": "Hasan Yıldız",
+          "phone": "05321000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_1_7",
+          "name": "Caner Aydın",
+          "phone": "05321000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "2. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_2_1",
+          "name": "Emre Arslan",
+          "phone": "05322000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_2_2",
+          "name": "Burak Özkan",
+          "phone": "05322000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_2_3",
+          "name": "Cem Doğan",
+          "phone": "05322000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_2_4",
+          "name": "Serkan Aydın",
+          "phone": "05322000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_2_5",
+          "name": "Oğuz Koç",
+          "phone": "05322000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_2_6",
+          "name": "Volkan Kılıç",
+          "phone": "05322000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_2_7",
+          "name": "Kadir Karaca",
+          "phone": "05322000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "3. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_3_1",
+          "name": "Gökhan Aslan",
+          "phone": "05323000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_3_2",
+          "name": "Hakan Tekin",
+          "phone": "05323000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_3_3",
+          "name": "Tolga Polat",
+          "phone": "05323000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_3_4",
+          "name": "Onur Yalçın",
+          "phone": "05323000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_3_5",
+          "name": "Uğur Korkmaz",
+          "phone": "05323000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_3_6",
+          "name": "Barış Erdoğan",
+          "phone": "05323000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_3_7",
+          "name": "Cihan Bulut",
+          "phone": "05323000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "4. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_4_1",
+          "name": "Eren Taş",
+          "phone": "05324000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_4_2",
+          "name": "Sercan Güneş",
+          "phone": "05324000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_4_3",
+          "name": "Kaan Bulut",
+          "phone": "05324000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_4_4",
+          "name": "Mert Yavuz",
+          "phone": "05324000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_4_5",
+          "name": "Yiğit Aksoy",
+          "phone": "05324000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_4_6",
+          "name": "Alperen Kara",
+          "phone": "05324000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": "Çarşamba"
+        },
+        {
+          "id": "emp_4_7",
+          "name": "Bora Keskin",
+          "phone": "05324000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "5. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_5_1",
+          "name": "Kerem Keskin",
+          "phone": "05325000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_5_2",
+          "name": "Taha Özdemir",
+          "phone": "05325000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_5_3",
+          "name": "Fatih Duman",
+          "phone": "05325000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_5_4",
+          "name": "Salih Avcı",
+          "phone": "05325000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_5_5",
+          "name": "İbrahim Parlak",
+          "phone": "05325000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_5_6",
+          "name": "Yunus Ege",
+          "phone": "05325000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_5_7",
+          "name": "Taylan Şen",
+          "phone": "05325000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "6. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_6_1",
+          "name": "Caner Soylu",
+          "phone": "05326000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_6_2",
+          "name": "Tayfun Erdem",
+          "phone": "05326000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_6_3",
+          "name": "Ozan Bilgin",
+          "phone": "05326000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_6_4",
+          "name": "Sinan Kahraman",
+          "phone": "05326000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_6_5",
+          "name": "Bilal Turan",
+          "phone": "05326000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_6_6",
+          "name": "Semih Ünal",
+          "phone": "05326000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_6_7",
+          "name": "Ferhat Kaya",
+          "phone": "05326000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "7. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_7_1",
+          "name": "Zafer Kaplan",
+          "phone": "05327000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_7_2",
+          "name": "Erhan Tunç",
+          "phone": "05327000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_7_3",
+          "name": "Levent Ceylan",
+          "phone": "05327000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_7_4",
+          "name": "Sedat Çetin",
+          "phone": "05327000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_7_5",
+          "name": "Murat Özer",
+          "phone": "05327000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_7_6",
+          "name": "Metin Gök",
+          "phone": "05327000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_7_7",
+          "name": "Deniz Güler",
+          "phone": "05327000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "8. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_8_1",
+          "name": "Ercan Kurt",
+          "phone": "05328000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_8_2",
+          "name": "Tarık Yaman",
+          "phone": "05328000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_8_3",
+          "name": "Deniz Coşkun",
+          "phone": "05328000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_8_4",
+          "name": "Bora Boz",
+          "phone": "05328000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_8_5",
+          "name": "Soner Sever",
+          "phone": "05328000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_8_6",
+          "name": "Yücel Toprak",
+          "phone": "05328000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_8_7",
+          "name": "Cengiz Ak",
+          "phone": "05328000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "9. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_9_1",
+          "name": "Koray Öz",
+          "phone": "05329000001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_9_2",
+          "name": "Alp Eren",
+          "phone": "05329000002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_9_3",
+          "name": "Doruk Güneş",
+          "phone": "05329000003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_9_4",
+          "name": "Rıza Akın",
+          "phone": "05329000004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_9_5",
+          "name": "Kudret Yurt",
+          "phone": "05329000005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_9_6",
+          "name": "Yasin Sönmez",
+          "phone": "05329000006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_9_7",
+          "name": "Cüneyt Barış",
+          "phone": "05329000007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "10. Grup",
+      "capacityPerDay": 1,
+      "employees": [
+        {
+          "id": "emp_10_1",
+          "name": "Ömer Faruk",
+          "phone": "05320100001",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_10_2",
+          "name": "Enes Batur",
+          "phone": "05320100002",
+          "shiftStart": "08:30",
+          "shiftEnd": "17:30",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_10_3",
+          "name": "Yavuz Selim",
+          "phone": "05320100003",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_10_4",
+          "name": "Batuhan Çetin",
+          "phone": "05320100004",
+          "shiftStart": "09:00",
+          "shiftEnd": "18:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_10_5",
+          "name": "Taner Yıldız",
+          "phone": "05320100005",
+          "shiftStart": "10:00",
+          "shiftEnd": "19:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_10_6",
+          "name": "Melih Er",
+          "phone": "05320100006",
+          "shiftStart": "11:00",
+          "shiftEnd": "20:00",
+          "selectedDay": null
+        },
+        {
+          "id": "emp_10_7",
+          "name": "Samet Koçyiğit",
+          "phone": "05320100007",
+          "shiftStart": "12:00",
+          "shiftEnd": "21:00",
+          "selectedDay": null
+        }
+      ]
+    }
+  ]
+}
